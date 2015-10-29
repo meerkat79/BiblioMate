@@ -1,0 +1,42 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    width: 1024px;
+    text-align: center;
+    margin: auto;
+}
+
+span {
+    font-style: italic;
+}
+
+#content{
+ 
+}
+
+.inputarea{
+    width: 100%;
+    min-height: 20em;
+    background-color: #2196F3;
+    padding: 1em;
+    border: 3px solid #673AB7;
+    margin-bottom: 2em;
+}
+
+.outputarea{
+    width: 100%;
+    min-height: 20em;
+    background-color: #00BCD4;
+    padding: 1em;
+    border: 3px solid #673AB7;
+}
+
+form{
+    text-align: left;
+}
+
+form label{
+    border-left: 3px solid #FF5722;
+    padding-left: 0.5em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+}
