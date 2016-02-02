@@ -1,0 +1,30 @@
+{
+  "name": "bibliomate",
+  "version": "1.0.0",
+  "description": "Small web application to capture key inputs and output results to harvard method format.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meerkat79/BiblioMate.git"
+  },
+  "keywords": [
+    "bibliography"
+  ],
+  "author": "Rudi van litsenborgh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meerkat79/BiblioMate/issues"
+  },
+  "homepage": "https://github.com/meerkat79/BiblioMate#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.12.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^1.4.2"
+  }
+}

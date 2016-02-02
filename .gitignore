@@ -1,2 +1,3 @@
 BiblioMate.csproj
 .vs/config/applicationhost.config
+node_modules/
