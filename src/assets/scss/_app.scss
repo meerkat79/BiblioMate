@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+
+    header{
+        text-align: center;
+        background-color: #FFD700;
+        padding: 1%;
+    }
+
+    h1{
+        font-size: 38px;
+        font-weight: bold;
+    }
+    h2{
+        font-size: 32px;
+    }
+
+    span {
+        font-style: italic;
+    }
+
+    form{
+        text-align: left;
+
+        label{
+            display: inline-block;
+            min-width: 8em;
+            height: 3em;
+            line-height: 3em;
+            padding-left: 0.5em;
+            border-left: 3px solid #FFD700;
+            margin-left: 2em;
+            font-style: normal;
+        }
+        input{
+            display: inline-block;
+            width: 20em;
+            height: 2em;
+            border: 1px solid #333;
+        }
+
+        textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+            border-color: rgb(255, 215, 0);
+            box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(255, 215, 0, 0.56);
+            outline: 0 none;
+        }    
+
+    }
+
+    #container{
+        width: 100%;
+        margin: auto;
+        padding: 1% 0;
+    }    
+
+    ::-webkit-input-placeholder {
+       padding-left: 5px;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       padding-left: 5px;  
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       padding-left: 5px; 
+    }
+
+    :-ms-input-placeholder {  
+       padding-left: 5px; 
+    }
+
+    .input-area, .output-area{
+        width: 90%;
+        min-height: 10em;
+        padding: 1em;
+        margin: 0 auto 2em;
+        background-color: rgb(211, 205, 173);
+
+        h1{
+            padding: 1%;
+            margin: 1%;
+            text-align: center;
+        }
+    }
+
+    .input-area{
+        border: 3px solid #FFD700;    
+    }
+
+    .output-area{
+        border:3px solid #75AE30;
+    }
+    .result{
+        position: relative;
+        width: 95%;
+        min-height: 4em;
+        line-height: 2em;
+        padding: 1%;
+        margin-top: 5px;
+        border-radius: 5px;
+        background-color: rgba(117, 174, 48, 0.28);
+    }
+
+    .copy{
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -2em;
+        width: 5em;
+        height: 2em;
+        border-radius: 5px;
+        background-color: #808080;
+        color: #fff;
+        text-align: center;
+        font-style: normal;
+        cursor: cell;
+    }
+    .copy:hover{
+        border: 2px solid black;
+    }      
+}

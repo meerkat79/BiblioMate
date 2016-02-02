@@ -1,1 +1,1 @@
-﻿alert('hello world');
+﻿console.info('greeting.ts is empty');

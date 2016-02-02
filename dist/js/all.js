@@ -21,5 +21,6 @@ window.onload = function () {
     greeter.start();
 };
 //# sourceMappingURL=app.js.map
-alert('hello world');
-//# sourceMappingURL=greeting.js.map
+
+console.log('test 2 in app central');
+console.info('greeting.ts is empty');

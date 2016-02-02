@@ -1,2 +1,1 @@
-alert('hello world');
-//# sourceMappingURL=greeting.js.map
+console.info('greeting.ts is empty');

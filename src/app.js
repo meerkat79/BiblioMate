@@ -21,3 +21,5 @@ window.onload = function () {
     greeter.start();
 };
 //# sourceMappingURL=app.js.map
+
+console.log('test 2 in app central');
