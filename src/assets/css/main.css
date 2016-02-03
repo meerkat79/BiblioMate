@@ -1,3 +1,4 @@
+/* meyerweb's reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -45,6 +46,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* main Sass variables */
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -5672,6 +5674,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*# sourceMappingURL=bootstrap.min.css.map */
+/* actual app styles */
 body {
   font-family: 'Segoe UI', sans-serif; }
   body header {
@@ -5758,6 +5761,7 @@ body {
   body .copy:hover {
     border: 2px solid black; }
 
+/* responsive styles */
 @media smallPhone {
   .input-area, .output-area {
     width: 768px; } }
