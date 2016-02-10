@@ -4,5 +4,18 @@
   "ref": "master",
   "path": "tools/typings",
   "bundle": "tools/typings/tsd.d.ts",
-  "installed": {}
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "977da240f263e88215a27cb44f2e31524ca07135"
+    },
+    "angularjs/angular-route.d.ts": {
+      "commit": "977da240f263e88215a27cb44f2e31524ca07135"
+    },
+    "angularjs/angular-animate.d.ts": {
+      "commit": "977da240f263e88215a27cb44f2e31524ca07135"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "977da240f263e88215a27cb44f2e31524ca07135"
+    }
+  }
 }

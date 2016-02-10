@@ -1,1 +1,0 @@
-console.info('greeting.ts is empty');

@@ -1,112 +1,21 @@
-﻿<!DOCTYPE html>
 
-<html lang="en">
+<!DOCTYPE html>
+<html ng-app="app">
 <head>
-    <meta charset="utf-8" />
     <title>BiblioMate</title>
-    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
-
+    <link href="assets/css/main.css" rel="stylesheet" />
 </head>
 <body>
 
-    <header>
-        <h1>BiblioMate</h1>
-        <h2>Your friend in creating Harvard method bibliogrphies</h2>
-        <div id="timestamp"></div>
-    </header>
- 
+    <div ng-view class="slide-animation"></div>
 
-    <div id="container">
-    <!-- #### Books here ###-->
-        <div class="input-area">
-            <h1>Books</h1>
-            <form>
-                <label>Book Title</label>
-                <input type="text" placeholder="Title"/>
-                <br>
-                <label>Author</label>
-                <input type="text" placeholder="Author"/>
-                <br>
-                <label>Publisher</label>
-                <input type="text" placeholder="Publisher"/>
-                <br>
-                <label>Date</label>
-                <input type="text" name="" value="" placeholder="Date">
-            </form>
-          
-        </div>
-
-        <div class="output-area">
-            <span>Result</span>
-            <p class="result">
-                <span>Gone with the wind</span>
-                <span>Margeret Micthel</span>
-                <span>Unknown</span>
-                <span>1936</span>
-                <span class="copy">Copy</span>
-            </p>
-        </div>
-
-        <!-- #### Magazines and journals here ###-->
-        <div class="input-area">
-                    <h1>Magazines</h1>
-            <form>
-                <label>Magazine Title</label>
-                <input type="text" placeholder="Title"/>
-                <br>
-                <label>Publisher</label>
-                <input type="text" placeholder="Publisher"/>
-                <br>
-                <label>Date</label>
-                <input type="text" name="" value="" placeholder="Date">
-            </form>
-        </div>
-
-        <div class="output-area">
-            <span>Result</span>
-            <p class="result">
-                <span>Gone with the wind</span>
-                <span>Margeret Micthel</span>
-                <span>Unknown</span>
-                <span>1936</span>
-                <span class="copy">Copy</span>
-            </p>
-        </div>
-
-
-        <!-- #### Online publications here ###-->
-        <div class="input-area">
-            <h1>Online Publications</h1>
-            <form>
-                <label>Book Title</label>
-                <input type="text" placeholder="Title"/>
-                <br>
-                <label>Author</label>
-                <input type="text" placeholder="Author"/>
-                <br>
-                <label>Publisher</label>
-                <input type="text" placeholder="Publisher"/>
-                <br>
-                <label>Date</label>
-                <input type="text" name="" value="" placeholder="Date">
-            </form>           
-        </div>
-
-        <div class="output-area">
-            <span>Result</span>
-            <p class="result">
-                <span>Gone with the wind</span>
-                <span>Margeret Micthel</span>
-                <span>Unknown</span>
-                <span>1936</span>
-                <span class="copy">Copy</span>
-            </p>
-        </div>
-    </div>
-
-    <!-- Scripts -->
-    <script src="app.js"></script>
-    <script src="app/js/greeting.js"></script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+    <script src="js/app.module.js"></script>
+    <script src="js/controllers/customers.controller.js"></script>
+    <script src="js/controllers/orders.controller.js"></script>
+    <script src="js/services/data.service.js"></script>
+    <script src="js/directives/filterTextbox.directive.js"></script>
 </body>
 </html>

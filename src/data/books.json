@@ -1,0 +1,10 @@
+[
+	{
+		"book": "Gone with the wind",
+		 "Author": "Margaret Mitchell"
+ 	},
+	{ 
+		"book": "Of mice and men", 
+		"totAuthoral": "John Steinbeck"
+	}
+]

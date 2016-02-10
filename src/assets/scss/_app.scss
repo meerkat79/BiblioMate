@@ -53,22 +53,6 @@ body {
         width: 100%;
         margin: auto;
         padding: 1% 0;
-    }    
-
-    ::-webkit-input-placeholder {
-       padding-left: 5px;
-    }
-
-    :-moz-placeholder { /* Firefox 18- */
-       padding-left: 5px;  
-    }
-
-    ::-moz-placeholder {  /* Firefox 19+ */
-       padding-left: 5px; 
-    }
-
-    :-ms-input-placeholder {  
-       padding-left: 5px; 
     }
 
     .input-area, .output-area{

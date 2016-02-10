@@ -1,0 +1,1 @@
+{"version":3,"sources":["modules/common/header/main.ts"],"names":[],"mappings":"AAAA,OAAO,CAAC,GAAG,CAAC,6BAA6B,CAAC,CAAC","file":"modules/common/header/main.js","sourcesContent":["console.log('header directive has loaded');"],"sourceRoot":"/source/"}

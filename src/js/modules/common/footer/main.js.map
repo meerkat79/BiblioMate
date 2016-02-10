@@ -1,0 +1,1 @@
+{"version":3,"sources":["modules/common/footer/main.ts"],"names":[],"mappings":"AAAA,OAAO,CAAC,GAAG,CAAC,8BAA8B,CAAC,CAAC","file":"modules/common/footer/main.js","sourcesContent":["console.log('footers directive has loaded');"],"sourceRoot":"/source/"}
