@@ -1,5 +1,5 @@
-# AngularIn20TypeScript
-Simple AngularJS Application with TypeScript, you can view video about typescript and angular in 20 minutes at ngconf 2015 on [youtube](https://www.youtube.com/watch?list=PLOETEcp3DkCoNnlhE-7fovYvqwVPrRiY7&feature=player_embedded&v=U7NYTKgkZgo)
+# BiblioMate
+Simple AngularJS Application with TypeScript.
 
 # Usage
 
@@ -14,4 +14,5 @@ Simple AngularJS Application with TypeScript, you can view video about typescrip
 2. Launch the server
 
         npm start
+        you may also create a server on your localhost
 
